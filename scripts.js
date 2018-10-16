@@ -35,7 +35,8 @@ function preambleCount() {
     /**
      * This last regex is the last two together with one more thing. 
      * Question mark at the end of word characters because we want to match 
-     * theoretical words that start with t and end with e.
+     * theoretical words that start with t and end with e with nothing in the middle.
+     * (te may not be english, but it does exist). 
      * Question marks make last set 'sticky', matching 0 or more. 
      */
     const bothRegex = /\b[t]\w+?[e]\b/gi;
