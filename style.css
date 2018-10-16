@@ -1,0 +1,38 @@
+p {
+    color: #4A4E69;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bold, #startsWithT, #endsWithE, #both {
+    font-weight: 700;
+}
+
+.height100vh {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1.5rem;
+    background-color: #5e8097;
+    border: 1px solid transparent;
+    border-radius: 0;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
+    transition: all 0.2s;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #ffffff;
+    color: #5e8097;
+    border: 1px solid #5e8097;
+    text-decoration: none;
+}
